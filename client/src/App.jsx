@@ -6,11 +6,13 @@ import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
 import Projects from './Pages/Projects.jsx'
 import Contact from './Pages/Contact.jsx'
+import ScrollToTop from './Component/ScrollToTop.jsx'
 function App() {
 
   return (
    <>
    <Router>
+    <ScrollToTop />
     <Header />
     <Routes>
       <Route path='/' element={<Home/>}/>
