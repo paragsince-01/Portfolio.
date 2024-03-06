@@ -57,13 +57,13 @@ export default function Contact() {
               </span>
             </div>
           </div>
-          <div className="2ndChild flex flex-col md:flex-row gap-8 ">
-            <div className=" w-[50rem] h-[32rem] rounded-lg flex flex-col text-left gap-[1.5rem] p-6 shadow-xl border border-orange-500">
+          <div className="2ndChild flex flex-col md:flex-row gap-8 justify-center items-center">
+            <div className="w-[25rem] md:w-[50rem] h-[32rem] rounded-lg flex flex-col text-left gap-[1.5rem] p-6 shadow-xl border border-orange-500 ">
               <div className="flex flex-col text-left">
                 <h1 className="text-5xl font-semibold tracking-wide text-gray-800">
                   Get In Touch
                 </h1>
-                <span className="my-2 w-80 md:w-40 border-b-2 border-orange-400"></span>
+                <span className="my-4 w-40 border-b-2 border-orange-400"></span>
               </div>
 
               <form className="flex flex-col gap-[1rem] w-full h-full">
@@ -71,13 +71,13 @@ export default function Contact() {
                   type="text"
                   placeholder="Enter Your Name"
                   id="name"
-                  className="rounded-lg border border-gray-800 w-[40rem] h-12"
+                  className="rounded-lg border border-gray-800 h-12"
                 />
                 <input
                   type="text"
                   placeholder="Enter Your Email Adress"
                   id="email"
-                  className="rounded-lg border border-gray-800 w-[40rem] h-12"
+                  className="rounded-lg border border-gray-800 h-12"
                 />
                 <textarea
                   id="text"
@@ -85,7 +85,7 @@ export default function Contact() {
                   rows="5"
                   maxLength="200"
                   placeholder="Message"
-                  className="rounded-lg border border-gray-800 w-[40rem]"
+                  className="rounded-lg border border-gray-800"
                 />
                 <span>max length : 200</span>
                 <Button className="tracking-widest w-52 text-base">
@@ -93,12 +93,12 @@ export default function Contact() {
                 </Button>
               </form>
             </div>
-            <div className="w-72">
+            <div className=" w-[26rem] md:w-72">
             <div className="h-full flex flex-col p-5 justify-start items-start gap-4">
           <h1 className="text-3xl font-semibold tracking-wide text-gray-800">
             Message Me
           </h1>
-          <span className="my-2 w-80 md:w-40 border-b-2 border-orange-400"></span>
+          <span className="my-4 w-20 border-b-2 border-orange-400"></span>
           <p className="text-left text-lg tracking-widest">Feel free to reach out and message me. I'm here to assist and answer any questions you may have.</p>
           {/*  <SocialIcons /> */}
           <div className='relative top-5 left-0'>
